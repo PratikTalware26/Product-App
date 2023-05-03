@@ -1,0 +1,18 @@
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background: white;
+    box-shadow: 2px 2px 2px 1px lightgray;
+}
+.nav-leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo{
+    width: 70px;
+}
