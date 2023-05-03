@@ -1,0 +1,37 @@
+.prod-card{
+    width: 250px;
+    height: 350px;
+    background: white;
+    box-shadow: 2px 2px 2px 1px #ccc;
+}
+.prod-img-cont{
+    height: 200px;
+}
+.prod-img-cont img{
+    width: 100%;
+    height: 100%;
+}
+.prod-desc{
+    color: grey;
+    line-height: 1.2;
+    font-size: small;
+}
+.prod-brand{
+    color: #0000ff99;
+}
+.prod-cont-parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.prod-details{
+    padding: 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .prod-cont-parent {
+      justify-content: center;
+    }
+  }

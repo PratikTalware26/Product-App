@@ -6,6 +6,8 @@
     border: 1px solid lightgray;
     background: white;
     box-shadow: 2px 2px 2px 1px lightgray;
+    position: sticky;
+    top: 0;
 }
 .nav-leftside{
     display: flex;
@@ -15,4 +17,17 @@
 }
 .nav-logo{
     width: 70px;
+}
+.nav-appname{
+    background: linear-gradient(to right, navy, lightblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-rightside{
+    display: flex;
+    column-gap: 10px;
+}
+.categories{
+    color: lightseagreen;
+    letter-spacing: 5px;
 }
