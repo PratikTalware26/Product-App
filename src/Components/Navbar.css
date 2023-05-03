@@ -31,3 +31,20 @@
     color: lightseagreen;
     letter-spacing: 5px;
 }
+@media screen and (max-width: 600px) {
+    .nav-logo{
+        width: 40px;
+    }
+    .nav-appname{
+        font-size: 20px;
+    }
+    .nav-rightside{
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+    }
+    .categories{
+        letter-spacing: 2px;
+    font-size: smaller;
+    }
+  }
